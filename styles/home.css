@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+}
+
 .header {
     height: 80px;
     padding: 15px 35px;
@@ -6,23 +10,47 @@
 }
 
 .content {
-    /*background-color: #888;*/
     height: 100%;
 }
 
 .category-box {
-    position: relative;
-}
-
-.category-box:before {
-    position: absolute;
-    width: 30%;
+    display: flex;
+    width: 100%;
     height: 100%;
-    transform: skewY(-11deg);
 }
 
 .category {
-    background-image: url("../imgs/Avengers.jpg");
+    margin: 7% auto;
+    padding: 10px;
+    width: 19%;
+    max-height: 60%;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    transition: transform .2s;
+}
+
+.category:hover {
+    transform: scale(1.4);
+}
+
+.adventure {
+    background-image: url("../imgs/adventure.jpg");
+}
+
+.action {
+    background-image: url("../imgs/action.jpg");
+}
+
+.comedy {
+    background-image: url("../imgs/comedy.jpg");
+}
+
+.animation {
+    background-image: url("../imgs/animate.webp");
+}
+
+.heroes {
+    background-image: url("../imgs/Avengers.jpg");
 }
