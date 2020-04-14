@@ -58,9 +58,16 @@ h3 {
 }
 
 .movies-back {
+    padding: 15px;
+    width: 85%;
+    height: 90%;
     background-color: #888;
     color: white;
     transform: rotateY(180deg);
+}
+
+.movies-back p {
+    font-size: 12px;
 }
 
 .picture {
@@ -68,4 +75,11 @@ h3 {
     height: 100%;
     margin-right: 5px;
     box-shadow: 2px 3px 10px #202020;
+}
+
+h4 {
+    text-shadow: -2px 2px #202020;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
 }
