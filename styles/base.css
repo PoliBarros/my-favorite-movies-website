@@ -18,6 +18,7 @@ h5 {
 }
 
 header {
+    width: 100%;
     height: 50px;
     z-index: 1;
     box-shadow: 0px 2px 10px #fff;
@@ -35,4 +36,34 @@ header h2 {
     padding-left: 25px;
     background-size: contain;
     width: 65px;
+}
+
+nav {
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+}
+
+nav a {
+    float: left;
+    color: #888;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 2.5rem;
+    color: #fff;
+    border-top: 2px solid #3d3d3d;
 }

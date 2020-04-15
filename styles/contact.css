@@ -1,0 +1,26 @@
+.content-contact {
+    display: flex;
+}
+
+.map,
+.info {
+    width: 50%;
+    margin: 0 20px;
+}
+
+.map {
+    box-shadow: 0px 0px 20px #272727;
+}
+
+.info {
+    color: #fff;
+    font-size: 20px;
+    line-height: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-items {
+    vertical-align: middle;
+    text-align: center;
+}
