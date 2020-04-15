@@ -50,23 +50,23 @@ body {
 }
 
 .adventure {
-    background-image: url("../imgs/adventure.jpg");
+    background-image: url("../imgs/index/adventure.jpg");
 }
 
 .action {
-    background-image: url("../imgs/action.jpg");
+    background-image: url("../imgs/index/action.jpg");
 }
 
 .comedy {
-    background-image: url("../imgs/comedy.jpg");
+    background-image: url("../imgs/index/comedy.jpg");
 }
 
 .animation {
-    background-image: url("../imgs/animate.webp");
+    background-image: url("../imgs/index/animate.webp");
 }
 
 .heroes {
-    background-image: url("../imgs/Avengers.jpg");
+    background-image: url("../imgs/index/Avengers.jpg");
 }
 
 .button {

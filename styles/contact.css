@@ -24,3 +24,14 @@
     vertical-align: middle;
     text-align: center;
 }
+
+.linkedin {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.linkedin:hover {
+    font-weight: bold;
+    font-size: 22px;
+}
